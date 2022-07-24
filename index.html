@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fortune Cookie by Qit</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(()=>{
+                $('img').hover(function(){
+                    var orig = $(this).attr('src');
+                    var flipped = $(this).attr('data-alt-src');
+                    $(this).attr('src', flipped);
+                    $(this).attr('data-alt-src', orig);
+                    console.log(orig);
+                })
+                $('button.reset').click(()=>{
+                    location.reload(true)
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="col-lg-12">
+               <h1>Fortune Cookie</h1>
+               <p><span>Directions: </span>Open your <span>eyes</span> then point at this page. Open your eyes and follow the advice your mouse pointer lands on.</p>
+            </header>
+            <main class="col-lg-12">
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice1.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice2.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice3.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice4.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice5.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice6.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice7.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice8.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice19.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice10.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice11.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice12.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice13.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice14.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice15.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice16.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice17.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice18.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice19.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice20.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice21.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice22.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice23.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice24.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice25.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice26.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice27.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice28.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice29.PNG">
+                </div>
+                <div class="col-lg-2">
+                    <img src="assets\cookie.jpg" data-alt-src="assets\advice30.PNG">
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
